@@ -7,11 +7,11 @@
   border-radius: 10px;
 }
 
-.contactInfo {
+.contact-info {
   flex-grow: 1;
   text-align: start;
 }
 
-.contactInfoIcon {
+.contact-info-icon {
   margin-right: 10px;
 }

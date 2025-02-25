@@ -6,7 +6,7 @@ function SearchBox({ value, onFileterChange }) {
       <label>
         Find contacts by name
         <input
-          className={`inputField ${css.searchField}`}
+          className={`inputField ${css["search-field"]}`}
           type="text"
           value={value}
           onChange={(event) => {

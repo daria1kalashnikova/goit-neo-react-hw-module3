@@ -25,14 +25,14 @@ function ContactForm({ submitHandler }) {
       onSubmit={submitHandler}
       validationSchema={ContactFormSchema}
     >
-      <Form className={css.contactForm}>
+      <Form className={css["contact-form"]}>
         <label>
           Name
           <Field className="inputField" type="text" name="name" />
           <ErrorMessage
             name="name"
             component="span"
-            className={css.errorMessage}
+            className={css["error-message"]}
           />
         </label>
 
@@ -42,11 +42,11 @@ function ContactForm({ submitHandler }) {
           <ErrorMessage
             name="number"
             component="span"
-            className={css.errorMessage}
+            className={css["error-message"]}
           />
         </label>
 
-        <button className={`button ${css.submitBtn}`} type="submit">
+        <button className={`button ${css["submit-btn"]}`} type="submit">
           Add contact
         </button>
       </Form>

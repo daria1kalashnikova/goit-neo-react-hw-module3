@@ -4,12 +4,12 @@ import { FaUser, FaPhone } from "react-icons/fa";
 function Contact({ id, username, phone, deleteContact }) {
   return (
     <li key={id} id={id} className={css.contact}>
-      <div className={css.contactInfo}>
+      <div className={css["contact-info"]}>
         <p>
-          <FaUser className={css.contactInfoIcon} /> {username}
+          <FaUser className={css["contact-info-icon"]} /> {username}
         </p>
         <p>
-          <FaPhone className={css.contactInfoIcon} /> {phone}
+          <FaPhone className={css["contact-info-icon"]} /> {phone}
         </p>
       </div>
       <button

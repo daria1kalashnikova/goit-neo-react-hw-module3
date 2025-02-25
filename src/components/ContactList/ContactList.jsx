@@ -3,7 +3,7 @@ import Contact from "/src/components/Contact/Contact";
 
 function ContactList({ contacts, deleteContact }) {
   return (
-    <ul className={css.contactList}>
+    <ul className={css["contact-list"]}>
       {contacts.map((contact) => {
         return (
           <Contact
