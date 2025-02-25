@@ -1,4 +1,4 @@
-.contact-form {
+.contactForm {
   border: 2px solid;
   border-radius: 10px;
   width: fit-content;
@@ -6,13 +6,13 @@
   margin: 20px 0;
 }
 
-.submit-btn {
+.submitBtn {
   font-size: 18px;
   padding: 10px 20px;
   background-color: #1d43ca;
 }
 
-.error-message {
+.errorMessage {
   display: block;
   color: #ff0000d8;
   font-size: 14px;
